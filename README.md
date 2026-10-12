@@ -102,7 +102,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Bonus:** write a rule to detect an Nmap SYN scan.
 
-**Result:** _Add what happened here._
+**Result:**
 
 ![snort configuration](screenshots/snort-configuration.png)
 ![snort rule](screenshots/snort-rule.png)
@@ -143,7 +143,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
    sudo tail -n 20 /var/log/fail2ban.log
 ```
 
-**Result:** Fail2ban detected 16 failed SSH attempts and banned 5 offenders. Bans expire after 600 seconds, so "Currently banned" returned to 0.
+**Result:**
 
 ![Fail2ban rule](screenshots/Fail2ban-rule.png)
 ![Fail2ban ssh](screenshots/Fail2ban-ssh.png)
