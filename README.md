@@ -61,13 +61,13 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:** 
 
-![Windows Defender Firewall web server](screenshots/Defender-webserver.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule1.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule2.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule3.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule4.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule5.png)
-![Windows Defender Firewall rule](screenshots/Defender-rule6.png)
+![Windows Defender Firewall web server](screenshots/Defender_webserver.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule1.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule2.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule3.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule4.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule5.png)
+![Windows Defender Firewall rule](screenshots/Defender_rule6.png)
 ![Windows Defender Firewall rule](screenshots/Defender-rule.png)
 ![Windows Defender Firewall Allowed](screenshots/defender-allowed.png)
 ![Windows Defender Firewall blocked](screenshots/defender-blocked.png)
