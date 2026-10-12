@@ -2,7 +2,7 @@
 
 A hands-on lab exploring network defense with three tools: **Windows Defender Firewall**, **Snort**, and **Fail2ban**.
 
-- **Author:** Shree Vakthi ([@ShreeVakthi18](https://github.com/ShreeVakthi18))
+- **Author:** Shree Vakthi 
 - **Environment:** Windows 10/11 host, Ubuntu VM in VirtualBox
 
 ---
@@ -59,11 +59,11 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 ```
 5. Disable the rule and test again (should work).
 
-**Result:** _Add what happened here._
+**Result:** 
 
-📸 `screenshots/defender-rule.png`
-📸 `screenshots/defender-blocked.png`
-📸 `screenshots/defender-allowed.png`
+![Account creation alert](screenshots/account-created.png)
+![Account creation alert](screenshots/account-created.png)
+![Account creation alert](screenshots/account-created.png)
 
 ---
 
