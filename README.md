@@ -16,7 +16,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 🧠 Concepts
+## Concepts
 
 - **Firewall:** Allows or blocks traffic using rules (IP, port, protocol).
 - **IDS (Intrusion Detection System):** Monitors traffic and **alerts** only.
