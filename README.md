@@ -7,7 +7,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 📌 Objectives
+## Objectives
 
 - Understand the difference between a firewall, an IDS, and an IPS.
 - Write and test a rule or policy in each tool.
@@ -25,12 +25,12 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 | Feature | Firewall | IDS | IPS |
 |---|---|---|---|
 | Filters traffic | ✅ | ❌ | ✅ |
-| Generates alerts | ⚠️ Limited | ✅ | ✅ |
+| Generates alerts |  Limited | ✅ | ✅ |
 | Blocks threats | ✅ | ❌ | ✅ |
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Tool | Role | Purpose |
 |---|---|---|
@@ -40,7 +40,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 🧪 Lab 1: Windows Defender Firewall
+## Lab 1: Windows Defender Firewall
 
 **Goal:** Block inbound traffic on TCP port 8080.
 
@@ -103,7 +103,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 🧪 Lab 2: Snort (IDS)
+## Lab 2: Snort (IDS)
 
 **Goal:** Detect traffic with a custom Snort rule.
 
@@ -151,7 +151,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 🧪 Lab 3: Fail2ban (IPS)
+## Lab 3: Fail2ban (IPS)
 
 **Goal:** Automatically block an IP after repeated failed SSH logins.
 
@@ -202,15 +202,15 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ## 📊 Comparison Summary
 
-| Tool | Detects | Blocks | Ease of Setup | Notes |
+| Tool | Detects | Blocks | Notes |
 |---|---|---|---|---|
-| Windows Defender Firewall | ❌ | ✅ | ⭐⭐⭐⭐⭐ | Built-in, host-level |
-| Snort | ✅ | ❌ (IDS mode) | ⭐⭐⭐ | Rule-based alerts |
-| Fail2ban | ✅ (log-based) | ✅ | ⭐⭐⭐⭐ | Bans IPs via firewall rules |
+| Windows Defender Firewall | ❌ | ✅ |Built-in, host-level |
+| Snort | ✅ | ❌ (IDS mode) |Rule-based alerts |
+| Fail2ban | ✅ (log-based) | ✅ | Bans IPs via firewall rules |
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 - A firewall controls **what is allowed**, an IDS tells you **what happened**, and an IPS **stops it**.
 - Fail2ban shows IPS behavior: detect, then block automatically.
@@ -218,15 +218,13 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 🚧 Challenges Faced
+## Challenges Faced
 
 - Suricata packet capture did not produce alerts in the VM, so it was replaced with Fail2ban for the IPS part.
 - Ping between Windows and the VM failed (bridged networking), so Snort was tested on the loopback interface using TCP traffic instead of ICMP.
-- _Add your own._
-
 ---
 
-## 🔭 Next Steps
+## Next Steps
 
 - Fix VirtualBox networking (Host-only adapter) for two-machine testing.
 - Retry Suricata in IDS and inline IPS mode.
@@ -236,7 +234,7 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 ---
 
 
-## 📚 References
+## References
 
 - [Snort Documentation](https://www.snort.org/documents)
 - [Fail2ban Documentation](https://fail2ban.readthedocs.io)
@@ -244,6 +242,6 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This lab was done in a controlled, personal environment for educational purposes only. Do not test against networks you do not own or have permission to test.
