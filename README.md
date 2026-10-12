@@ -61,15 +61,44 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:** 
 
+### Windows Defender Firewall web server
+
 ![Windows Defender Firewall web server](screenshots/Defender_webserver.png)
+
+### Windows Defender Firewall rule: step 1
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule1.png)
+
+### Windows Defender Firewall rule: step 2
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule2.png)
+
+### Windows Defender Firewall rule: step 3
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule3.png)
+
+### Windows Defender Firewall rule: step 4
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule4.png)
+
+### Windows Defender Firewall rule: step 5
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule5.png)
+
+### Windows Defender Firewall rule: step 6
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule6.png)
+
+### Windows Defender Firewall rule created
+
 ![Windows Defender Firewall rule](screenshots/Defender_rule.png)
+
+### Windows Defender Firewall blocked
+
 ![Windows Defender Firewall Allowed](screenshots/defender-allowed.png)
+
+### Windows Defender Firewall allowed
+
 ![Windows Defender Firewall blocked](screenshots/defender-blocked.png)
 
 ---
@@ -104,9 +133,20 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:**
 
+### Snort configuration
+
 ![snort configuration](screenshots/snort-configuration.png)
+
+### Snort rule
+
 ![snort rule](screenshots/snort-rule.png)
+
+### Snort ping test
+
 ![snort ping](screenshots/snort-ping.png)
+
+### Snort alert
+
 ![snort alert](screenshots/snort-alert.png)
 
 ---
@@ -145,8 +185,16 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:**
 
+### Fail2ban rule
+
 ![Fail2ban rule](screenshots/Fail2ban-rule.png)
+
+### Fail2ban SSH failed logins
+
 ![Fail2ban ssh](screenshots/Fail2ban-ssh.png)
+
+### Fail2ban status
+
 ![Fail2ban status](screenshots/Fail2ban-status.png)
 
 
@@ -187,24 +235,6 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 ---
 
-## 📁 Repository Structure
-
-```
-firewall-ids-ips-lab/
-├── README.md
-├── rules/
-│   ├── snort-local.rules
-│   └── jail.local
-└── screenshots/
-    ├── defender-rule.png
-    ├── defender-blocked.png
-    ├── defender-allowed.png
-    ├── snort-alert.png
-    ├── fail2ban-status.png
-    └── fail2ban-log.png
-```
-
----
 
 ## 📚 References
 
