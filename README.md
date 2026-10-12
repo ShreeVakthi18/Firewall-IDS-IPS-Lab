@@ -1,4 +1,4 @@
-# 🔥 Firewall, IDS & IPS Lab
+# Firewall, IDS & IPS Lab
 
 A hands-on lab exploring network defense with three tools: **Windows Defender Firewall**, **Snort**, and **Fail2ban**.
 
@@ -61,9 +61,16 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:** 
 
-![Account creation alert](screenshots/account-created.png)
-![Account creation alert](screenshots/account-created.png)
-![Account creation alert](screenshots/account-created.png)
+![Windows Defender Firewall web server](screenshots/Defender-webserver.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule1.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule2.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule3.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule4.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule5.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule6.png)
+![Windows Defender Firewall rule](screenshots/Defender-rule.png)
+![Windows Defender Firewall Allowed](screenshots/defender-allowed.png)
+![Windows Defender Firewall blocked](screenshots/defender-blocked.png)
 
 ---
 
@@ -97,7 +104,10 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:** _Add what happened here._
 
-📸 `screenshots/snort-alert.png`
+![snort configuration](screenshots/snort-configuration.png)
+![snort rule](screenshots/snort-rule.png)
+![snort ping](screenshots/snort-ping.png)
+![snort alert](screenshots/snort-alert.png)
 
 ---
 
@@ -135,8 +145,10 @@ A hands-on lab exploring network defense with three tools: **Windows Defender Fi
 
 **Result:** Fail2ban detected 16 failed SSH attempts and banned 5 offenders. Bans expire after 600 seconds, so "Currently banned" returned to 0.
 
-📸 `screenshots/fail2ban-status.png`
-📸 `screenshots/fail2ban-log.png`
+![Fail2ban rule](screenshots/Fail2ban-rule.png)
+![Fail2ban ssh](screenshots/Fail2ban-ssh.png)
+![Fail2ban status](screenshots/Fail2ban-status.png)
+
 
 ---
 
